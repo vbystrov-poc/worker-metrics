@@ -26,7 +26,7 @@ A monitoring application for a distributed system. The application collects memo
 
 ### Tech stack:
 
-- Java 8
+- Kotlin
 - A web framework Quarkus
 - For the front-end React and D3.js with TypeScript will be used
 - For the frontend-to-backend communication WebSockets will be used
