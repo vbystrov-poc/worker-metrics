@@ -2,7 +2,7 @@ version: "3"
 services:
   database:
     image: "postgres:10.5"
-    container_name: "super-database"
+    container_name: "metrics-database"
     ports:
       - "5432:5432"
     volumes:
@@ -10,7 +10,7 @@ services:
 
   monitoring:
     image: "prom/prometheus"
-    container_name: "super-visor"
+    container_name: "metrics-visor"
     ports:
       - 9090:9090
     volumes:
