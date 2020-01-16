@@ -1,1 +1,3 @@
-# application properties
+quarkus:
+  http:
+    root-path: /api
