@@ -1,3 +1,2 @@
-quarkus:
-  http:
-    root-path: /api
+spring:
+  main.banner-mode: off
